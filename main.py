@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions
 from time import sleep
 import random
 import os
-from solution import solve_recaptcha
+from captcha import solve_recaptcha
 
 URL = 'https://www.reddit.com/'
 
